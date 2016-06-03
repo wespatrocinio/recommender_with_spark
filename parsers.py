@@ -1,4 +1,4 @@
-from models import Movie, User
+from players import Movie, User
 from pyspark.mllib.recommendation import Rating
 
 def parse_movie(line):
